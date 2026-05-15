@@ -4,85 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sieci</title>
+        <link rel="stylesheet" href="style.css">
 </head>
 <style>
-    body {
-        background-color: #0b1020;
-        color: white;
-        margin: 0;
-    }
-    /*style do nava*/
-        nav {
-            border-bottom: 1px solid rgba(255,255,255,0.1);
-            justify-content: space-between;
-            display: flex;
-            padding: 20px 10%;
-            align-items: center;
-            z-index: 1000;
 
-        }
-            nav ul {
-        display: flex;
-        gap: 30px;
-        list-style: none;
-        }
-        /*ten niebieski napis w logu*/
-            .logo a,
-            .logo a:link,
-            .logo a:visited,
-            .logo a:hover,
-            .logo a:active,
-            .logo a:focus {
-                color: #00e5ff;
-                text-decoration: none;
-                font-size: 1.5rem;
-                font-weight: 700;
-            }
-        /*boczne menu*/
-            .menu a,
-            .menu a:link,
-            .menu a:visited,
-            .menu a:hover,
-            .menu a:active,
-            .menu a:focus {
-                color: white;
-                font-size: larger;    
-                font-weight: 700;
-                text-decoration: none;
-            }
-            /*menu na telefonach*/
-            .hamburger {
-                display: none;
-                font-size: 2rem;
-                cursor: pointer;
-                color: white;
-            }
-@media(max-width: 768px) {
-
-    .hamburger {
-        display: block;
-    }
-
-    .menu {
-        display: none;
-        flex-direction: column;
-        width: 100%;
-        text-align: center;
-        margin-top: 20px;
-        gap: 20px;
-    }
-    .menu a:hover {
-        color: #00e5ff;
-        transition: 0.3s;
-    }
-    .menu.active {
-        display: flex;
-    }
-
-    nav {
-        flex-wrap: wrap;
-    }
-}
 </style>
 
 <body>
