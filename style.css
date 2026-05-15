@@ -1,3 +1,4 @@
+    /*ogólny styl strony*/
     body {
         background-color: #0b1020;
         color: white;
@@ -42,36 +43,37 @@
                 font-weight: 700;
                 text-decoration: none;
             }
-            /*menu na telefonach*/
+        /*menu na telefonach*/
             .hamburger {
                 display: none;
                 font-size: 2rem;
                 cursor: pointer;
                 color: white;
             }
-@media(max-width: 768px) {
+            @media(max-width: 768px) {
 
-    .hamburger {
-        display: block;
-    }
+                .hamburger {
+                    display: block;
+                }
 
-    .menu {
-        display: none;
-        flex-direction: column;
-        width: 100%;
-        text-align: center;
-        margin-top: 20px;
-        gap: 20px;
-    }
-    .menu a:hover {
-        color: #00e5ff;
-        transition: 0.3s;
-    }
-    .menu.active {
-        display: flex;
-    }
+                .menu {
+                    display: none;
+                    flex-direction: column;
+                    width: 100%;
+                    text-align: center;
+                    margin-top: 20px;
+                    gap: 20px;
+                }
+                .menu a:hover {
+                    color: #00e5ff;
+                    transition: 0.3s;
+                }
+                .menu.active {
+                    display: flex;
+                }
 
-    nav {
-        flex-wrap: wrap;
-    }
-}
+                nav {
+                    flex-wrap: wrap;
+                }
+            }
+    /*text ogólny*/
