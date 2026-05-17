@@ -96,7 +96,15 @@
 
     h2  { margin-top: 100px;
     text-align: center;
-    font-size: 250%;}
+    font-size: 250%;
+}
+
     h3 { margin-top: 100px;
     text-align: center;
     font-size: 200%;}
+
+    .content-box {
+    max-width: 1200px;
+    margin: 100px auto;
+    padding: 0 40px;
+    }
