@@ -3,6 +3,7 @@
         background-color: #0b1020;
         color: white;
         margin: 0;
+        text-align: center;
     }
     /*style do nava*/
         nav {
@@ -20,17 +21,12 @@
         gap: 30px;
         list-style: none;
         }
-        /*ten niebieski napis w logu*/
-            .logo a,
-            .logo a:link,
-            .logo a:visited,
-            .logo a:hover,
-            .logo a:active,
-            .logo a:focus {
-                color: #00e5ff;
-                text-decoration: none;
-                font-size: 1.5rem;
-                font-weight: 700;
+        /*Logo*/
+            .logo img {
+                height: 100px;
+                width: auto;
+
+                filter: drop-shadow(0 0 8px #00e5ff);
             }
         /*boczne menu*/
             .menu a,
@@ -94,12 +90,12 @@
         font-size: 350%;
     }
 
-    h2  { margin-top: 100px;
+    h2  { 
     text-align: center;
     font-size: 250%;
 }
 
-    h3 { margin-top: 100px;
+    h3 { margin-top: 50px;
     text-align: center;
     font-size: 200%;}
 
@@ -108,3 +104,54 @@
     margin: 100px auto;
     padding: 0 40px;
     }
+    .mar {
+        margin-top: 100px;
+    }
+/*obrazki i te boxy*/
+    .cards {
+    display: flex;
+    gap: 40px;
+
+    justify-content: center;
+
+    margin-top: 80px;
+
+    flex-wrap: wrap;
+    }
+
+    .card {
+        background: rgba(255,255,255,0.03);
+
+        border-radius: 20px;
+
+        width: 450px;
+
+        overflow: hidden;
+
+        transition: 0.3s;
+    }
+
+    .card:hover {
+        transform: translateY(-10px);
+
+        box-shadow: 0 0 20px rgba(0,229,255,0.2);
+    }
+
+
+    .card img {
+        width: 100%;
+        height: 250px;
+
+        object-fit: cover;
+    }
+
+
+    .card h2 {
+        padding: 20px 20px 10px;
+    }
+
+    .card p {
+        padding: 0 20px 20px;
+
+        line-height: 1.6;
+}
