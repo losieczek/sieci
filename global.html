@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <link rel="icon" href="zdjec/logo2.png" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sieci</title>
+        <link rel="stylesheet" href="style.css">
+</head>
+<style>
+</style>
+<body>
+<nav>
+    <div class="logo">
+        <a href="index.html"><img src="zdjec/logo.png" alt="logo"></a>
+    </div>
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+        <ul class="menu">
+            <li><a href="index.html">Strona Główna</a></li>
+            <li><a href="internet.html">Jak działa Internet?</a></li>
+            <li><a href="LAN.html">Sieć domowa(LAN)</a></li>
+            <li><a href="global.html">Sieć Globalna</a></li>
+            <li><a href="#">Bezpieczeństwo</a></li>
+            <li><a href="#">Kontakt</a></li>
+        </ul>
+</nav>
+
+<footer>
+    <h4>AUTOR : ALEKSANDER I.</h4>
+</footer>
+<script>
+function toggleMenu() {
+    document.querySelector(".menu").classList.toggle("active");
+}
+</script>
+<footer>Memento Mori</footer>
+</body>
