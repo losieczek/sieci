@@ -1,248 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <link rel="icon" href="zdjec/logo2.png" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sieci</title>
+        <link rel="stylesheet" href="style.css">
+</head>
+<style>
+</style>
 <body>
-
-<!-- NAVBAR -->
-
 <nav>
-
     <div class="logo">
-        <a href="index.html">
-            <img src="zdjec/logo.png" alt="logo">
-        </a>
+        <a href="index.html"><img src="zdjec/logo.png" alt="logo"></a>
     </div>
-
-    <div class="hamburger" onclick="toggleMenu()">
-        ☰
-    </div>
-
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
     <ul class="menu">
-
         <li><a href="index.html">Strona Główna</a></li>
         <li><a href="#">Jak działa Internet?</a></li>
         <li><a href="#">Sieć domowa (LAN)</a></li>
         <li><a href="#">Protokoły</a></li>
         <li><a href="#">Bezpieczeństwo</a></li>
         <li><a href="#">Kontakt</a></li>
-
     </ul>
-
 </nav>
-
-<!-- HERO -->
-
 <h1>Sieć LAN</h1>
-
 <div class="content-box">
-
-<p>
-LAN (Local Area Network) to lokalna sieć komputerowa wykorzystywana
-w domach, szkołach oraz firmach do komunikacji urządzeń
-oraz współdzielenia dostępu do Internetu.
-</p>
-
-<p class="mar">
-Dzięki sieci LAN komputery, smartfony, drukarki oraz inne urządzenia
-mogą wymieniać dane oraz korzystać z jednego połączenia internetowego.
-Nowoczesne sieci lokalne wykorzystują zarówno połączenia przewodowe
-Ethernet, jak i bezprzewodowe Wi-Fi.
-</p>
-
+    <h3>LAN (Local Area Network) to lokalna sieć komputerowa wykorzystywana w domach, szkołach oraz firmach do komunikacji urządzeń oraz współdzielenia dostępu do Internetu.</h3>
+    <h3 class="mar">Dzięki sieci LAN komputery, smartfony, drukarki oraz inne urządzenia mogą wymieniać dane oraz korzystać z jednego połączenia internetowego. Nowoczesne sieci lokalne wykorzystują zarówno połączenia przewodowe Ethernet, jak i bezprzewodowe Wi-Fi.</h3>
 </div>
-
-<!-- SCHEMAT -->
-
 <h2>Przykładowy schemat sieci LAN</h2>
-
 <div class="cards">
-
     <div class="card">
-
         <img src="zdjec/schema-lan.png" alt="LAN">
-
         <h2>Schemat sieci</h2>
-
-        <p>
-        Na schemacie przedstawiono przykładową sieć lokalną
-        składającą się z routera, switcha oraz urządzeń końcowych
-        połączonych przewodowo i bezprzewodowo.
-        </p>
-
+        <p>Na schemacie przedstawiono przykładową sieć lokalną składającą się z routera, switcha oraz urządzeń końcowych połączonych przewodowo i bezprzewodowo.</p>
     </div>
-
     <div class="card">
-
         <img src="zdjec/domowa-siec.jpg" alt="Domowa sieć">
-
         <h2>Sieć domowa</h2>
-
-        <p>
-        Domowa sieć LAN umożliwia komunikację pomiędzy urządzeniami
-        oraz dostęp do Internetu za pomocą routera i technologii Wi-Fi.
-        </p>
-
+        <p>Domowa sieć LAN umożliwia komunikację pomiędzy urządzeniami oraz dostęp do Internetu za pomocą routera i technologii Wi-Fi.</p>
     </div>
-
 </div>
-
-<!-- JAK DZIAŁA -->
-
 <h2 class="mar">Jak działa sieć LAN?</h2>
-
 <div class="cards">
-
     <div class="card">
-
         <h3>1</h3>
-
-        <p>
-        Router odbiera połączenie internetowe od dostawcy Internetu
-        i przesyła je do sieci lokalnej.
-        </p>
-
+        <p>Router odbiera połączenie internetowe od dostawcy Internetu i przesyła je do sieci lokalnej.</p>
     </div>
-
     <div class="card">
-
         <h3>2</h3>
-
-        <p>
-        Switch lub router rozdziela połączenie pomiędzy urządzenia
-        znajdujące się w sieci.
-        </p>
-
+        <p>Switch lub router rozdziela połączenie pomiędzy urządzenia znajdujące się w sieci.</p>
     </div>
-
     <div class="card">
-
         <h3>3</h3>
-
-        <p>
-        Komputery, smartfony oraz inne urządzenia mogą komunikować się
-        i przesyłać dane.
-        </p>
-
+        <p>Komputery, smartfony oraz inne urządzenia mogą komunikować się i przesyłać dane.</p>
     </div>
-
 </div>
-
-<!-- RODZAJE POŁĄCZEŃ -->
-
 <h2 class="mar">Rodzaje połączeń</h2>
-
 <div class="cards">
-
     <div class="card">
-
         <img src="zdjec/ethernet.jpg" alt="Ethernet">
-
         <h2>Ethernet</h2>
-
-        <p>
-        Połączenie przewodowe zapewniające bardzo dużą stabilność
-        oraz szybki transfer danych wykorzystywany w nowoczesnych sieciach.
-        </p>
-
+        <p>Połączenie przewodowe zapewniające bardzo dużą stabilność oraz szybki transfer danych wykorzystywany w nowoczesnych sieciach.</p>
     </div>
-
     <div class="card">
-
         <img src="zdjec/wifi.jpg" alt="WiFi">
-
         <h2>Wi-Fi</h2>
-
-        <p>
-        Połączenie bezprzewodowe umożliwiające korzystanie z Internetu
-        bez używania kabli oraz swobodne przemieszczanie się urządzeń.
-        </p>
-
+        <p>Połączenie bezprzewodowe umożliwiające korzystanie z Internetu bez używania kabli oraz swobodne przemieszczanie się urządzeń.</p>
     </div>
-
 </div>
-
-<!-- ZALETY -->
-
 <h2 class="mar">Zalety sieci LAN</h2>
-
 <div class="cards">
-
     <div class="card">
-
         <h3>⚡ Szybkość</h3>
-
-        <p>
-        Szybka komunikacja pomiędzy urządzeniami znajdującymi się
-        w tej samej sieci lokalnej.
-        </p>
-
+        <p>Szybka komunikacja pomiędzy urządzeniami znajdującymi się w tej samej sieci lokalnej.</p>
     </div>
-
     <div class="card">
-
         <h3>🔒 Bezpieczeństwo</h3>
-
-        <p>
-        Sieć lokalna zapewnia większą kontrolę nad przesyłanymi
-        danymi i urządzeniami.
-        </p>
-
+        <p>Sieć lokalna zapewnia większą kontrolę nad przesyłanymi danymi i urządzeniami.</p>
     </div>
-
     <div class="card">
-
         <h3>📁 Współdzielenie</h3>
-
-        <p>
-        Możliwość współdzielenia plików, drukarek oraz innych zasobów sieciowych.
-        </p>
-
+        <p>Możliwość współdzielenia plików, drukarek oraz innych zasobów sieciowych.</p>
     </div>
-
 </div>
-
-<!-- CIEKAWOSTKI -->
-
 <h2 class="mar">Ciekawostki</h2>
-
 <div class="cards">
-
     <div class="card">
-
         <h3>💡 Ethernet</h3>
-
-        <p>
-        Ethernet jest jedną z najpopularniejszych technologii
-        wykorzystywanych w sieciach komputerowych na świecie.
-        </p>
-
+        <p>Ethernet jest jedną z najpopularniejszych technologii wykorzystywanych w sieciach komputerowych na świecie.</p>
     </div>
 
     <div class="card">
-
         <h3>💡 Prędkość</h3>
-
-        <p>
-        Nowoczesne sieci LAN mogą osiągać prędkości nawet do 10 Gb/s.
-        </p>
-
+        <p>Nowoczesne sieci LAN mogą osiągać prędkości nawet do 10 Gb/s.</p>
     </div>
-
 </div>
-
-<!-- FOOTER -->
-
 <footer class="mar">
-
-<p>
-Projekt edukacyjny — Sieci komputerowe
-</p>
-
+    <p>Projekt edukacyjny — Sieci komputerowe</p>
 </footer>
-
 <script>
-
 function toggleMenu() {
     document.querySelector(".menu").classList.toggle("active");
 }
-
 </script>
-
 </body>
